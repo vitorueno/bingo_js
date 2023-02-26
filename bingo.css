@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+
+
+.titulo {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    letter-spacing: 8vw;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+.cartela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+.coluna {
+    width: 20vw;
+    height: 85vh;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 17vh;
+
+    background-color: slategrey;
+    border: 1px solid black;
+    color: white;
+
+    font-size: 3vw;
+
+}
+
+.selecionado {
+    background-color: hotpink;
+}
